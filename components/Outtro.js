@@ -13,7 +13,7 @@ const BrandLogo = [
   "https://s3-ap-southeast-1.amazonaws.com/o77site/singlehouse-kanasiri-logo-en.svg",
   "https://s3-ap-southeast-1.amazonaws.com/o77site/singlehouse-habitia-logo-en.svg",
 ];
-export const Outtro = () => {
+export const Outtro = ({size}) => {
   const BrandEle =
     BrandLogo.length > 0 ? (
       <>
@@ -46,10 +46,10 @@ export const Outtro = () => {
     ) : null;
   return (
     <Content>
-      <Image
+     {size.innerWidth >768 && <Image
         height="60%"
         src="https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/singlehouse/sansiri-house-brand-section.jpg"
-      />
+      />}
       <Row justify="center">
         <Card className="outro-brands">
           <Row justify="center" align="middle">

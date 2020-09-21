@@ -53,7 +53,7 @@ const App = () => {
         <CarouselImage />
         <Intro />
         <HouseFeatured size={size}/>
-        <Outtro />
+        <Outtro size={size}/>
         <MadeForLife />
         <Blog />
         <Footerer size={size}/>
