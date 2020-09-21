@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg",
+    "title": "สราญสิริรังสิต",
+    "description": "บ้านเดี่ยวใกล้ทางด่วน รองรับทุกการอยู่อาศัย",
+    "priceStart": "เริ่มต้นที่ 5 ล้านบาท",
+    "nearBy": ["ห้างสรรพสินค้าฟิวเจอร์พาร์ค7.1 กม.", "สเปลล์7.1 กม."]
+  },
+
+  {
+    "id": 2,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/o77site/sansiri-project-burasiri-rama2-portrait.jpg",
+    "title": "อณาสิริกรุงเทพ-ปทุมธานี",
+    "description": "บ้านวิถีใหม่จากแสนสิริ 15 นาทีสู่แจ้งวัฒนะ",
+    "priceStart": "เริ่มต้นที่ 3.69 ล้านบาท",
+    "nearBy": ["เซ็นทรัล แจ้งวัฒนะ16 กม.", " Robinson ศรีสมาน8.4 กม."]
+  },
+  {
+    "id": 3,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/o77site/sansiri-project-anasiri-bangna-landscape.jpg",
+    "title": "อณาสิริบางนา",
+    "description": "ชีวิตวิถีใหม่ ริมทะเลสาบ 3 นาทีถึงทางด่วนบูรพาวิถี",
+    "priceStart": "เริ่มต้นที่ 2 ล้านบาท",
+    "nearBy": []
+  },
+  {
+    "id": 4,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/o77site/sansiri-project-anasiri-chaiyapruek-wongwaen-portrait.jpg",
+    "title": "อณาสิริชัยพฤกษ์ - วงแหวน",
+    "description": "ดีไซน์ฟังก์ชันเพื่อคนรุ่นใหม่ บนความพอดีที่ลงตัว",
+    "priceStart": "เริ่มต้นที่ 3.59 ล้านบาท",
+    "nearBy": [
+      "เซ็นทรัลพลาซา บางนา24 กม.",
+      "โฮมโปร มาร์เก็ตวิลเลจ สุวรรณภูมิ15 กม."
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/o77site/Web_Kanasiri_salaya-pinklao_935x745_EtJc3JCW.jpg",
+    "title": "คณาสิริศาลายา-ปิ่นเกล้า",
+    "description": "โครงการบ้านเดี่ยว 4 ห้องนอน โซนคลับเฮาส์ พร้อม Smart Home ที่ทันสมัย เดินทางสะดวก ใกล้มหิดลและเซ็นทรัล ศาลายา คู่ขนานลอยฟ้าบรมฯ ฟรี! ค่าใช้จ่ายวันโอน*",
+    "priceStart": "เริ่มต้นที่ 4.99 ล้านบาท",
+    "nearBy": []
+  },
+  {
+    "id": 6,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/o77site/setthasiri-thawiwatthana-house-portrait-810x890.jpg",
+    "description": "ชีวิตสุนทรีย์ มีดีเทล โครงการบ้านใหม่ ปลอดฝุ่น บนทำเลศักยภาพกว่า 100 ตร.ว. เพียง 5 นาที ถึงบรมราชชนนี และ ม.มหิดล จองเลย! รับส่วนลด 2 ล้าน*",
+    "title": "เศรษฐสิริทวีวัฒนา",
+    "priceStart": "เริ่มต้นที่ 15 ล้านบาท",
+    "nearBy": ["ทางพิเศษศรีรัช10 กม.", "เซ็นทรัลพลาซา ศาลายา16 กม."]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "MADE FOR EVERYDAY",
+    "imageUrl": "https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/home/sansiri-home-made-for-life-made-for-everyday-2x.jpg?v=1.0.1",
+    "description": "เพราะชีวิตดีๆ...เริ่มต้นที่บ้าน เราจึงมองหาคําตอบของการใช้ชีวิตที่คุณต้องการ เพื่อนำสิ่งนั้นมาประกอบขึ้นเป็น ‘บ้าน’"
+  },
+  {
+    "title": "MADE FOR YOU",
+    "imageUrl": "https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/home/sansiri-home-made-for-life-made-for-you-2x.jpg?v=1.0.1",
+    "description": "เราเชื่อว่า 'รอยยิ้ม' คือมาตรวัดที่ดีที่สุดของการบริการ เราจึงตั้งใจส่งต่อความสุขด้วยการบริการ และการดูแลที่ครอบคลุมทุกๆ ที่รอบตัวคุณ"
+  },
+  {
+    "title": "MADE FOR SHARING",
+    "imageUrl": "https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/home/sansiri-home-made-for-life-made-for-sharing-2x.jpg?v=1.0.1",
+    "description": "เพราะวัฒนธรรม เป็นหัวใจสำคัญของการเข้าใจ และสร้างพื้นที่เพื่อทุกคน เราจึงสร้างพื้นที่ให้คุณได้ร่วมแบ่งปันมุมมองการใช้ชีวิต"
+  },
+  {
+    "title": "MADE FOR BETTER",
+    "imageUrl": "https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/home/sansiri-home-made-for-life-made-for-better-2x.jpg?v=1.0.1",
+    "description": "เพื่อโลกที่น่าอยู่มากขึ้น แสนสิริจึงตั้งใจเนรมิตให้ทุกพื้นที่มีสภาพแวดล้อมที่ดี เพื่อพวกเราทุกคน"
+  }
+]
