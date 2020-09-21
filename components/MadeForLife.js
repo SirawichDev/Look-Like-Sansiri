@@ -17,10 +17,10 @@ export const MadeForLife = () => {
             width: "100%",
           }}
           grid={{
-            gutter: 30,
-            xs: 4,
-            md: 3,
-            sm: 4,
+            gutter: 20,
+            xs: 1,
+            md: 2,
+            sm: 2,
             lg: 4,
             xl: 4,
             xxl: 4,
@@ -30,13 +30,15 @@ export const MadeForLife = () => {
           size="small"
           renderItem={(Mfldata) => (
             <Card
+            className="madeLife-card"
               style={{
-                width: 250,
+              width: '100%',
                 border: "none",
                 backgroundColor: "transparent",
               }}
               cover={
                 <img
+          
                   src={Mfldata.imageUrl}
                   style={{ filter: "brightness(0.5)" }}
                 />

@@ -5,7 +5,6 @@ const {Content} = Layout
 const {Title, Paragraph} = Typography
 export const Intro = () => {
     return (
-        <Content>
             <Row className="section" align={'middle'} style={{height: '250px', margin: '2rem', textAlign: 'center'}}>
                 <Col>
                     <Title> “สำหรับทุกช่วงเวลาดีๆ ของทุกคน”</Title>
@@ -19,6 +18,5 @@ export const Intro = () => {
                         เพื่อให้ทุกช่วงเวลาดีๆ ของทุกคน เกิดขึ้นได้ทุกวัน </Paragraph>
                 </Col>
             </Row>
-        </Content>
     )
 }

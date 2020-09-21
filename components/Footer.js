@@ -12,7 +12,7 @@ const { Text } = Typography;
 export const Footerer = () => {
   return (
     <Footer className="footer" style={{ backgroundColor: "black" }}>
-      <Col>
+      <Col sm={2}>
         <Row justify="space-around">
           <Col>
             <Text className="footer-big-text">โปรโมชัน</Text>

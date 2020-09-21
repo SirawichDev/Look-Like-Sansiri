@@ -66,7 +66,7 @@ export const HouseFeatured = () => {
       </Row>
 
       <Row justify="center">
-        <Button>ดูโครงการเพิ่มเติม ></Button>
+        <Button>ดูโครงการเพิ่มเติม {'>'}</Button>
       </Row>
     </Content>
   );

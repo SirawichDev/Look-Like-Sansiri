@@ -2,7 +2,7 @@ import { Affix, Card, Image, Row, Col, List, Typography, Layout } from "antd";
 import React from "react";
 import { ReactSVG } from "react-svg";
 const { Title, Paragraph } = Typography;
-const {Content} = Layout
+const { Content } = Layout;
 
 const BrandLogo = [
   "https://s3-ap-southeast-1.amazonaws.com/o77site/HtuLMi4gCRw30B1.svg",
@@ -21,12 +21,20 @@ export const Outtro = () => {
           style={{
             justifyContent: "center",
             alignItems: "center",
-            border: 'none',
+            border: "none",
             backgroundColor: "#ffffff",
           }}
-          grid={{ gutter: 30, xs: 4, md: 3, sm: 4, lg: 4, xl: 4, xxl: 4 , column: 3}}
+          grid={{
+            gutter: 30,
+            xs: 4,
+            md: 4,
+            sm: 4,
+            lg: 4,
+            xl: 4,
+            xxl: 4,
+            column: 3,
+          }}
           dataSource={BrandLogo}
-          size="small"
           renderItem={(bLogo) => (
             <Card
               style={{ backgroundColor: "#ffffff" }}
@@ -37,39 +45,26 @@ export const Outtro = () => {
       </>
     ) : null;
   return (
-    <Col>
+    <Content>
       <Image
         height="60%"
         src="https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/singlehouse/sansiri-house-brand-section.jpg"
       />
       <Row justify="center">
-        <Card
-          style={{
-            padding: "20px",
-            width: "60%",
-            maxHeight: "250px",
-            position: "absolute",
-            bottom: "-7rem",
-            backgroundColor: "#ffffff",
-            border: "none",
-          }}
-        >
+        <Card className="outro-brands" >
           <Row justify="center" align="middle">
             <Col>
               <Title level={1}>แสนสิริ แบรนด์บ้านเดี่ยว</Title>
-              <Paragraph style={{ fontSize: "15px",textAlign: 'center' }}>
+              <Paragraph style={{ fontSize: "15px", textAlign: "center" }}>
                 เลือกชมโครงการบ้านเดี่ยวจากแบรนด์ที่คุณสนใจได้ ที่นี่
               </Paragraph>
             </Col>
           </Row>
-          <Row
-            style={{ width: "100%", backgroundColor: "#ffffff" }}
-    
-          >
+          <Row style={{ width: "100%", backgroundColor: "#ffffff" }}>
             {BrandEle}
           </Row>
         </Card>
       </Row>
-    </Col>
+    </Content>
   );
 };

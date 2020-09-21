@@ -9,15 +9,15 @@ export const Blog = () => {
     blogData.length > 0 ? (
       <List
         style={{
+          display: 'flex',
           marginTop: "10px",
           justifyContent: "center",
           alignItems: "center",
           border: "none",
-          width: "100%",
         }}
         grid={{
-          gutter: "10px",
-          xs: 3,
+          gutter: "20px",
+          xs: 1,
           md: 3,
           sm: 3,
           lg: 3,
@@ -26,7 +26,7 @@ export const Blog = () => {
         }}
         dataSource={blogData}
         renderItem={(blogData) => (
-          <Row>
+          <Row justify="center">
             <Card
               style={{
                 width: 300,
@@ -36,15 +36,7 @@ export const Blog = () => {
               cover={<img src={blogData.imageUrl} />}
             >
               <Button
-                style={{
-                  position: "absolute",
-                  right: "-2px",
-                  border: "none",
-                  fontWeight: "bold",
-                  bottom: "85px",
-                  height: "40px",
-                  width: "40px",
-                }}
+               className="arrow-read"
               >
                 {" "}
                 >{" "}
