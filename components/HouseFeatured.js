@@ -14,7 +14,7 @@ const FilterTitle = [
   "เรียงตามลำดับใหม่-เก่า",
 ];
 
-export const HouseFeatured = (size) => {
+export const HouseFeatured = ({size}) => {
   const CardGen = () => {
     return houseData.length > 0 ? (
       <List
