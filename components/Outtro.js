@@ -51,7 +51,7 @@ export const Outtro = () => {
         src="https://sansiri-com-frontend.s3.ap-southeast-1.amazonaws.com/assets/img/singlehouse/sansiri-house-brand-section.jpg"
       />
       <Row justify="center">
-        <Card className="outro-brands" >
+        <Card className="outro-brands">
           <Row justify="center" align="middle">
             <Col>
               <Title level={1}>แสนสิริ แบรนด์บ้านเดี่ยว</Title>

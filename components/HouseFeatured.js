@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Layout, Row, Space, Typography, List } from "antd";
+import { Button, Layout, Row, Space, Typography, List, Divider } from "antd";
 import { TableOutlined, UnorderedListOutlined } from "@ant-design/icons";
 import { FilterBtn, Round } from "@/components/Button";
 import { Cards } from "./Card";
@@ -14,7 +14,7 @@ const FilterTitle = [
   "เรียงตามลำดับใหม่-เก่า",
 ];
 
-export const HouseFeatured = () => {
+export const HouseFeatured = (size) => {
   const CardGen = () => {
     return houseData.length > 0 ? (
       <List
@@ -35,9 +35,12 @@ export const HouseFeatured = () => {
       : null;
 
   return (
-    <Content style={{ margin: "20px", padding: '2rem' }}>
+    <Content style={{ margin: "20px", padding: "2rem" }}>
+      <Divider />
       <Row justify="space-between" align="middle">
-        <Title level={2}>บ้านเดี่ยว</Title>
+        <Title level={2} style={{ marginBottom: 0 }}>
+          บ้านเดี่ยว
+        </Title>
         <Round title="ค้นหาจากแบรนด์บ้านเดี่ยว" />
       </Row>
       <Row>
@@ -50,15 +53,17 @@ export const HouseFeatured = () => {
           โครงการ
         </Space>
       </Row>
-      <Row justify="space-between" align="middle">
-        <Row>
-          <Button>
-            <TableOutlined />
-          </Button>
-          <Button>
-            <UnorderedListOutlined />
-          </Button>
-        </Row>
+      <Row justify="space-around" align="middle">
+        {size.innerWidth > 766 && (
+          <Row>
+            <Button>
+              <TableOutlined />
+            </Button>
+            <Button>
+              <UnorderedListOutlined />
+            </Button>
+          </Row>
+        )}
         <Row>{FilterBtnEle}</Row>
       </Row>
       <Row style={{ marginTop: "10px" }} justify="space-around">
@@ -66,7 +71,7 @@ export const HouseFeatured = () => {
       </Row>
 
       <Row justify="center">
-        <Button>ดูโครงการเพิ่มเติม {'>'}</Button>
+        <Button>ดูโครงการเพิ่มเติม {">"}</Button>
       </Row>
     </Content>
   );

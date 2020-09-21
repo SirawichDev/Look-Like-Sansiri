@@ -16,10 +16,11 @@ body {
 } */
 .outro-brands {
   padding: 10px;
-  width: 60%;
+  max-width: 50%;
+  width: 700px;
   max-height: 250px;
   position: absolute;
-  top: 42%;
+  top: 55%;
 
   z-index: 9999;
   background-color: #ffffff !important;
@@ -175,11 +176,11 @@ body {
     width: 100%;
     position: fixed;
     overflow: scroll;
-    height: 1000px;
+    height: 100%;
   }
   .coarousel-img {
     object-fit: cover;
-    width: 400px;
+    width: 100%;
     height: auto;
     -webkit-backface-visibility: hidden;
     -ms-transform: translateZ(0); /* IE 9 */
